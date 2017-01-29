@@ -23,7 +23,6 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-        maven { url "https://jitpack.io" }
 <#if mavenUrl != "mavenCentral">
         maven {
             url '${mavenUrl}'
